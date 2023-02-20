@@ -11,11 +11,9 @@ class Author
 
     def articles
         Article.all.filter do |article|
-          article.author == @name
+        article.author == @name
     end
 
-    end
-    
     def magazines
         articles.map{|article|article.magazine}.uniq
     end
