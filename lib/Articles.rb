@@ -5,8 +5,13 @@ def reload
 end
 
 class Article
+    #reads our instance variables
     attr_reader :author, :magazine, :title
+
+    #initialized an empty array that will store our pushed items
     @@all  = []
+
+    #initial values for our objects
     def initialize(author, magazine, title)
         @author = author
         @magazine = magazine

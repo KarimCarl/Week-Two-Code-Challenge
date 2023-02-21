@@ -3,8 +3,10 @@ require_relative '../config/environment.rb'
 
 
 class Author
+    #attribute accessor which allow us to access and modify our instance variables 
     attr_reader :name, :articles, :magazines
 
+    #the initial value for our object
     def initialize(name)
         @name = name
     end
