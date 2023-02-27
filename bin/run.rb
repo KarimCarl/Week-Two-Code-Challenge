@@ -12,9 +12,11 @@ readers = Magazine.new("Readers", "Handout")
 digest = Magazine.new("Digest", "Magazine")
 people = Magazine.new("People", "Handout")
 
-article = Article.new("Tom", Star, "Music")
-article1 = Article.new("Rei", People, "New Friends")
-article2 = Article.new("Russ", Digest, "Climb")
-article3 = Article.new("Emmah", People, "Kenyan Raised")
+article = Article.new("Tom", star, "Music")
+articleR = Article.new("Rei", people, "New Friends")
+article2 = Article.new("Russ", digest, "Climb")
+articleB = Article.new("Caleb", people, "TM")
+
 
 binding.pry
+
