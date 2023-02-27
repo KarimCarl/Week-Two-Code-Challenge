@@ -1,8 +1,8 @@
 require 'pry'
-require_relative '../config/environment.rb'
-def reload
-    load 'config/environment.rb'
-end
+# require_relative '../config/environment.rb'
+# def reload
+#     load 'config/environment.rb'
+# end
 
 class Article
     #reads our instance variables
